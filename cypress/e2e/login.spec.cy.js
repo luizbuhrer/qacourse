@@ -1,3 +1,5 @@
+import userData from '../fixtures/userData.json'
+
 describe('Orange HRM Tests', () => {
 
   const selectorList = {
@@ -18,7 +20,6 @@ describe('Orange HRM Tests', () => {
       username: 'teste',
       password: 'teste'
     }
-
   }
 
   it('Login - Success', () => {
